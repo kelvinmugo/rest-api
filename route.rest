@@ -1,0 +1,25 @@
+GET http://localhost:3000/subscribers
+
+###
+GET http://localhost:3000/subscribers/12
+
+###
+POST http://localhost:3000/subscribers
+Content-Type:application/json
+
+{
+    "name":"Kelvin Mugo",
+    "subscribedToChannel":"Rest Api"
+}
+
+###
+DELETE http://localhost:3000/subscribers/60ae3041c8e7d620103dc2e7
+
+###
+PATCH  http://localhost:3000/subscribers/60ae2f68c8e7d620103dc2e5
+Content-Type: application/json
+
+{
+    "name":"kamau kihonge",
+    "subscribedToChannel":"Web Dev"
+}
